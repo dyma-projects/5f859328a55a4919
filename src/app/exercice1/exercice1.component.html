@@ -1,0 +1,5 @@
+<div>
+    <p>Input : </p><input [type]="inputType" [(ngModel)]="data">
+    <hr>
+    <p [style.background-color]="bgColor" (mouseenter)="changeBackgroundColor('red')" (mouseleave)="changeBackgroundColor('green')">Données de l'input : {{ data }}</p>
+</div>
